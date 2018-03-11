@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="us.mifeng.login.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="猪头"/>
+        <EditText
+            android:id="@+id/userPass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="1123"/>
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登录"/>
+        <Button
+            android:id="@+id/cancle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="清除数据"/>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:paddingTop="40dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            style="@android:style/Widget.ProgressBar.Large"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>
